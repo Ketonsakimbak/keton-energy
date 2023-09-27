@@ -1,0 +1,242 @@
+.head{
+
+   
+    align-items: center;
+    background: url(imgs/petro-station.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:400px;
+    font-family: Geneva;    
+}
+.head-P{
+  
+    text-align: center; 
+}
+.head-P h3{
+   
+    font-family: cursive;
+    color: rgb(106, 123, 10);
+}
+.head-P h4{
+    color:rgb(248, 248, 47);
+    font-family: fantasy;
+}
+.head-L{
+  
+    text-align: center;
+    color:rgb(18, 16, 59);
+    align-items: center;
+}
+.head-C{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.head-C a{
+   
+	width: auto;
+	border-radius: 10%;
+    background-color:rgb(26, 103, 247);
+    text-decoration: none;
+    color: rgb(250, 157, 34);
+}
+.head-C a:hover,
+.head-C a:active{
+    
+    background-color: rgb(32, 13, 140);
+    color: rgb(161, 161, 16);
+    border-radius: 9%;
+    text-decoration: none;
+}
+.crew{
+    
+    font-size: 24px;
+    
+}
+.mguu{
+    border: 1px solid rgb(27, 26, 32);
+    font-family: roboto;
+}
+#first-foot{
+    border: 1px solid rgb(12, 12, 23);
+    font-size: 20px;
+    text-align: center; 
+    font-family: cursive;
+    color: rgba(213, 215, 85, 0.975); 
+    background: url(imgs/oil-shipment.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+  
+} 
+.last-foot{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 52, 52);
+    color: antiquewhite;
+   
+}
+.last-foot-left{
+    width: 30%;
+    text-align: center;
+}
+.last-foot-left ul{
+    list-style-type: none;
+}
+.last-foot-left ul li{
+    margin-bottom: 10px;
+  padding: 5px;
+}
+.last-foot-mid{
+    width: 30%;
+    text-align: center;
+}
+.last-foot-mid ul{
+    list-style-type: none;
+}
+.last-foot-mid ul li{
+    margin-bottom: 10px;
+  padding: 5px;
+}
+.last-foot-right{
+    width: 30%;
+    text-align: center;
+}
+.last-foot-right ul{
+    list-style-type: none;
+}
+.last-foot-right ul li{
+    margin-bottom: 10px;
+  padding: 5px;
+}
+.mwili{
+    text-align: center;
+    word-spacing: 6px;
+    font-family: Calibri;
+    background-color: white;
+   
+}
+.mwili p{
+    margin-bottom: 10px;
+    font-family: oxygen;
+    font-size: 18px;
+    
+}
+.all-divs ul li{
+ list-style-type: none;
+ margin-bottom: 10px;
+ padding: 5px;
+}
+.kichwa-chini{
+    align-items: center;
+    text-align: center;
+}
+#numbers{
+    border:0px solid black ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: antiquewhite;
+    
+}
+#numbers img{
+    border-top-right-radius: 9%;
+    border-top-left-radius: 9%;
+    
+}
+#numbers img:hover,
+#numbers img:active{
+    transform: scale(1.1);
+    background-color: rgb(32, 13, 140);
+    color: rgb(161, 161, 16);
+    border-bottom-left-radius: 9%;
+    border-bottom-right-radius: 9%;
+}
+#numbers p:hover,
+#numbers p:active{
+    transform: scale(1.1);
+    color: antiquewhite;
+    background-color:black;
+    border-radius: 9%;
+  
+}
+#numbers a:hover,
+#numbers a:active{
+    text-decoration: none;
+}
+#numbers a{
+    box-shadow: 11px 11px 12px rgba(0, 0, 0, 0.6);
+    border-radius: 9%;
+}
+.numbers-1{
+   
+    border-radius: 9%;
+display: flex;
+flex-direction: column;
+background-color: cornflowerblue;
+    color: black;
+    border-bottom-left-radius: 9%;
+    border-bottom-right-radius:9% ;
+}
+.numbers-1 P{
+    color: black;
+}
+.numbers-2{
+   
+    border-radius: 9%;
+    display: flex;
+flex-direction: column;
+background-color: cornflowerblue;
+    color: black;
+    border-bottom-left-radius: 9%;
+    border-bottom-right-radius:9% ;
+}
+.numbers-2 P{
+    color: black;
+}
+.numbers-3{
+ 
+    border-radius: 9%;
+    display: flex;
+flex-direction: column;
+background-color: cornflowerblue;
+    color: black;
+    border-bottom-left-radius: 9%;
+    border-bottom-right-radius:9% ;
+}
+.numbers-3 P{
+    color: black;
+}
+.numbers-4{
+   
+    border-radius: 9%;
+    display: flex;
+flex-direction: column;
+background-color: cornflowerblue;
+    color: black;
+    border-bottom-left-radius: 9%;
+    border-bottom-right-radius:9% ;
+}
+.numbers-4 P{
+    color: black;
+}
+.reserved{
+    background-color: rgb(10, 9, 15);
+    color: antiquewhite;
+    font-family: BlinkMacSystemFont;
+    box-shadow: 11px 11px 12px rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    text-align: center;
+}
+.contacts{
+    background-color:(gold);
+    color: rgb(8, 7, 6);
+    display: flex;
+    justify-content: center;
+}
